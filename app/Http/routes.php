@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('store/{name}/{type}/{value}', function($name, $type, $value) {
+    
+    return view('store', compact('name', 'type', 'value'));
+});

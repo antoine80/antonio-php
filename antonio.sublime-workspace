@@ -1,0 +1,1225 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sla",
+				"slabIt"
+			],
+			[
+				"secon",
+				"secondary-dark"
+			],
+			[
+				"sl",
+				"slatTextHeader"
+			],
+			[
+				"slab",
+				"slabTextHeader"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"background",
+				"background-repeat"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"str",
+				"strong"
+			],
+			[
+				"inl",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 52,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/welcome.blade.php",
+			"settings":
+			{
+				"buffer_size": 64,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/store.blade.php",
+			"settings":
+			{
+				"buffer_size": 139,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/app.blade.php",
+			"settings":
+			{
+				"buffer_size": 700,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 901,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Device.php",
+			"settings":
+			{
+				"buffer_size": 232,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/migrations/2015_07_08_200016_create_devices_table.php",
+			"settings":
+			{
+				"buffer_size": 553,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/migrations/2014_10_12_000000_create_users_table.php",
+			"settings":
+			{
+				"buffer_size": 703,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/database.php",
+			"settings":
+			{
+				"buffer_size": 4090,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".env",
+			"settings":
+			{
+				"buffer_size": 322,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 105.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"comi",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"statu",
+				"Git: Status"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"emme",
+				"Set Syntax: Emmet"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"prey",
+				"HTMLPrettify"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"yaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/home/esclapes/Code/antonio/Homestead.yaml",
+		"/home/esclapes/Code/zetta-hello-world/server.js",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/js.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/js/remarketing.html",
+		"/home/esclapes/Code/judithjanssen.github.io/es/desconecta.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_data/focus/register.yml",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/focus/lang-switch.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/focus/testimonials.html",
+		"/home/esclapes/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/esclapes/Code/judithjanssen.github.io/_data/focus/intro.yml",
+		"/home/esclapes/Code/judithjanssen.github.io/index.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_data/focus/testimonials.yml",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/head.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_data/focus/schedule.yml",
+		"/home/esclapes/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/esclapes/Code/judithjanssen.github.io/css/style.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/_sass/_home.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/_sass/_agency.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/_layouts/home.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_layouts/default.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/js/scrolldepth.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/webfontloader.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_sass/_slabtext.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/mail-modal.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/mailchimp-form.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/focus/register.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/post-list.html",
+		"/home/esclapes/Code/judithjanssen.github.io/blog.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_layouts/focus.html",
+		"/home/esclapes/Code/judithjanssen.github.io/focus.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/header.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_sass/_bootstrap.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/_sass/bootstrap/assets/stylesheets/_bootstrap.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/js/bootstrap.js",
+		"/home/esclapes/Code/judithjanssen.github.io/_config.yml",
+		"/home/esclapes/Code/judithjanssen.github.io/_data/sitewide/menu.yml",
+		"/home/esclapes/Code/judithjanssen.github.io/_data/focus/menu.yml",
+		"/home/esclapes/Code/judithjanssen.github.io/_layouts/blog.html",
+		"/home/esclapes/Code/judithjanssen.github.io/payment/ko.markdown",
+		"/home/esclapes/Code/judithjanssen.github.io/payment/ok.markdown",
+		"/home/esclapes/Code/judithjanssen.github.io/privacypolicy.html",
+		"/home/esclapes/Code/startbootstrap-clean-blog-1.0.3/css/clean-blog.css",
+		"/home/esclapes/Code/judithjanssen.github.io/_sass/_colors.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/_sass/_intro-header.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/_sass/_post-preview.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/_posts/en/2015-06-23-violence.md",
+		"/home/esclapes/Code/judithjanssen.github.io/_layouts/no-menu.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/header-no-menu.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_sass/_modal.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/blog/blog.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/footer.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_data/mailchimp-form.yml",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/stripe-form.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_data/retreats.yml",
+		"/home/esclapes/Code/judithjanssen.github.io/js/ouibounce/ouibounce.js",
+		"/home/esclapes/Code/judithjanssen.github.io/Gemfile",
+		"/home/esclapes/Code/judithjanssen.github.io/Guardfile",
+		"/home/esclapes/install-google-fonts",
+		"/home/esclapes/Code/judithjanssen.github.io/_data/focus/teacher.yml",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/focus/teacher.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_data/focus/description.yml",
+		"/home/esclapes/Code/judithjanssen.github.io/_data/focus/location.yml",
+		"/home/esclapes/Code/judithjanssen.github.io/_sass/focus/testimonials.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/_sass/_mixins.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/focus/header.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/focus/schedule.html",
+		"/home/esclapes/Code/judithjanssen.github.io/.gitignore",
+		"/home/esclapes/Code/judithjanssen.github.io/nl/focus.html",
+		"/home/esclapes/Code/infoyoga/ansible/tasks/solr-setup.yml",
+		"/home/esclapes/Code/infoyoga/docroot/sites/all/modules/contrib/geofield/geofield.module",
+		"/home/esclapes/Code/infoyoga/ansible/hosts/hosts",
+		"/home/esclapes/Code/infoyoga/Vagrantfile",
+		"/home/esclapes/Code/infoyoga/ansible/tasks/solr-drupal-serach-api-setup.yml",
+		"/home/esclapes/Code/infoyoga/ansible/prod-setup.yml",
+		"/home/esclapes/Code/infoyoga/ansible/tasks/common-mysql-secure.yml",
+		"/home/esclapes/Code/infoyoga/ansible/tasks/deploy-drupal.yml",
+		"/home/esclapes/Code/infoyoga/ansible/vars/devbox-settings.yml",
+		"/home/esclapes/Code/infoyoga/ansible/dev-deploy.yml",
+		"/home/esclapes/Code/infoyoga/ansible/devbox-setup.yml",
+		"/home/esclapes/Code/infoyoga/ansible/tasks/devbox-deploy-drupal.yml",
+		"/home/esclapes/Code/infoyoga/ansible/tasks/common-drush.yml",
+		"/home/esclapes/Code/infoyoga/ansible/vars/prod-settings.yml",
+		"/home/esclapes/Proyectos/preparto.es/web/landing-page/css/skins/wide.css",
+		"/home/esclapes/Proyectos/preparto.es/web/landing-page/css/skins/purple.css",
+		"/home/esclapes/Proyectos/preparto.es/web/landing-page/index.html",
+		"/home/esclapes/Code/preparto.es/app/Providers/AppServiceProvider.php",
+		"/home/esclapes/Code/preparto.es/config/mail.php",
+		"/home/esclapes/Code/preparto.es/.env",
+		"/home/esclapes/Code/preparto.es/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php",
+		"/home/esclapes/Code/preparto.es/app/Http/routes.php",
+		"/home/esclapes/Code/preparto.es/app/Http/Controllers/Auth/AuthController.php",
+		"/home/esclapes/.homestead/Homestead.yaml",
+		"/home/esclapes/Code/judithjanssen.github.io/js/cbpAnimatedHeader.js",
+		"/home/esclapes/Code/judithjanssen.github.io/_sass/focus/_intro.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/_sass/_sticky-footer.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/me.html",
+		"/home/esclapes/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/home/esclapes/Code/judithjanssen.github.io/_site/mail/contact_me.php",
+		"/home/esclapes/Code/judithjanssen.github.io/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_responsive-embed.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/bower_components/jquery/src/effects.js",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/focus/intro.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/focus/location.html",
+		"/home/esclapes/Code/judithjanssen.github.io/nl/index.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/home/splash.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_sass/focus/_header.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/gtm.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/focus/description.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_sass/_lang-switcher.scss",
+		"/home/esclapes/Code/judithjanssen.github.io/css/languages/languages.min.css",
+		"/home/esclapes/Code/judithjanssen.github.io/LICENSE",
+		"/home/esclapes/Code/judithjanssen.github.io/feed.xml",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/intro.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/teacher.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/description.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/schedule.html",
+		"/home/esclapes/Code/judithjanssen.github.io/README.md",
+		"/home/esclapes/Escritorio/cacheexclude/cacheexclude.info",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/contact.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/location.html",
+		"/home/esclapes/Code/judithjanssen.github.io/_data/nl/focus/location.yml",
+		"/home/esclapes/Code/judithjanssen.github.io/_data/en/focus/location.yml",
+		"/home/esclapes/Code/judithjanssen.github.io/_data/location.yml",
+		"/home/esclapes/Code/judithjanssen.github.io/_includes/location_data.html",
+		"/home/esclapes/Code/judithjanssen.github.io/location/_posts/2015-02-29-piscina.markdown",
+		"/home/esclapes/.config/sublime-text-3/Packages/User/YAML.sublime-settings",
+		"/home/esclapes/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/esclapes/Code/judithjanssen.github.io/_site/js/agency.js"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"min-height:100%",
+			"100%",
+			"//@",
+			"active",
+			"#",
+			"id: ",
+			"id:",
+			".fa",
+			"is-fi",
+			"#ouibounce-modal",
+			"nav.*li",
+			"nav >",
+			"#ouibounce-modal",
+			"strike",
+			"PM",
+			"PM ",
+			"form-",
+			"mixin",
+			"mixin border-radius",
+			"border-radius",
+			"terraza",
+			"\\$\\{([.-_a-z]*)\\}",
+			"hosts",
+			"\\$\\{([_a-z.]*)\\}",
+			"\\$\\{([a-z.]*)\\}",
+			"\\$\\{(.[a-z]*)\\}",
+			"\\$\\{([a-z]*)\\}",
+			"\\$\\{([a-z]\\.*)\\}",
+			"\\$\\{([a-z])\\}",
+			"\\${([a-z])}",
+			"${([a-z])}",
+			"${([a-z]\\.*)}",
+			"${([a-z]\\.)}",
+			"\"{{ drush_install_type }}\"",
+			"{{drush_install_type}}",
+			"{{ drush_install_type }}",
+			"common",
+			"$mysql_root_password",
+			"when",
+			"when_string",
+			"when",
+			"nature",
+			"Montserrat",
+			"Droid",
+			"Lato",
+			"Droid",
+			"lato",
+			"home-header",
+			"font-family",
+			"header ",
+			"lang-sm",
+			"site.data.focus.register[page.lang]",
+			"include.lang",
+			"site.data[include.lang].focus.location.",
+			"site.data.focus.",
+			"site.data.",
+			"include",
+			"\"",
+			"roboto",
+			"Kaushan",
+			"text",
+			"%;\n",
+			"#contact",
+			"#portfolio",
+			"btn-",
+			"rotate(30deg)",
+			";\n",
+			"site.color",
+			"site.",
+			"#{{ site.color.primary }}",
+			"#{{ site.color.secondary }}",
+			"fec",
+			"$secondary",
+			"{{",
+			"#{{ site.color.secondary }}",
+			"#{{ site.color.primary }}",
+			"#{{ site.color.secondary-dark }}",
+			"{{",
+			"png",
+			"color"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"link: #",
+			"link: ",
+			"#mail-modal",
+			"stripe-",
+			"desayuno",
+			"{{ $1 }}",
+			"drush_install_type",
+			"\"{{ drush_install_type }}\"",
+			"mysql",
+			"{{ mysql_root_password }}",
+			"when",
+			"Droid Serif",
+			"introduction",
+			".focus-header ",
+			"lang-xs",
+			"data",
+			"page.lang",
+			"site.data.focus.location[include.lang].",
+			"site.data[include.lang].focus.",
+			"site.data.focus.",
+			"page",
+			"#register",
+			"#location",
+			"opacity(0.8)",
+			"$primary",
+			"$secondary",
+			"$primary",
+			"$secondary-dark"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Theme - Afterglow/Prefs/Langs/Git.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/welcome.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 64,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/store.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								139
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/app.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								642,
+								642
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 901,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								876,
+								876
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 345.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/Device.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								193
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "database/migrations/2015_07_08_200016_create_devices_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 553,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								544,
+								544
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 211.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "database/migrations/2014_10_12_000000_create_users_table.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 703,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								694,
+								694
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 207.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "config/database.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4090,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2036,
+								2036
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1035.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": ".env",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "",
+	"project": "antonio.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rout",
+				"antonio/app/Http/routes.php"
+			],
+			[
+				"devicestab",
+				"antonio/database/migrations/2015_07_08_200016_create_devices_table.php"
+			],
+			[
+				".env",
+				"antonio/.env"
+			],
+			[
+				"sche",
+				"judithjanssen.github.io/_data/focus/schedule.yml"
+			],
+			[
+				"testi",
+				"judithjanssen.github.io/_includes/focus/testimonials.html"
+			],
+			[
+				"testimo",
+				"judithjanssen.github.io/_data/focus/testimonials.yml"
+			],
+			[
+				"lang",
+				"judithjanssen.github.io/_includes/focus/lang-switch.html"
+			],
+			[
+				"index",
+				"judithjanssen.github.io/index.html"
+			],
+			[
+				"introy",
+				"judithjanssen.github.io/_data/focus/intro.yml"
+			],
+			[
+				"desco",
+				"judithjanssen.github.io/es/desconecta.html"
+			],
+			[
+				"home",
+				"judithjanssen.github.io/_sass/_home.scss"
+			],
+			[
+				"sty",
+				"judithjanssen.github.io/css/style.scss"
+			],
+			[
+				"agenc",
+				"judithjanssen.github.io/_sass/_agency.scss"
+			],
+			[
+				"js",
+				"judithjanssen.github.io/_includes/js.html"
+			],
+			[
+				"hed",
+				"judithjanssen.github.io/_includes/head.html"
+			],
+			[
+				"register",
+				"judithjanssen.github.io/_includes/focus/register.html"
+			],
+			[
+				"focus",
+				"judithjanssen.github.io/_layouts/focus.html"
+			],
+			[
+				"focu",
+				"judithjanssen.github.io/focus.html"
+			],
+			[
+				"blog",
+				"judithjanssen.github.io/blog.html"
+			],
+			[
+				"inde",
+				"judithjanssen.github.io/index.html"
+			],
+			[
+				"defa",
+				"judithjanssen.github.io/_layouts/default.html"
+			],
+			[
+				"_boot",
+				"judithjanssen.github.io/_sass/_bootstrap.scss"
+			],
+			[
+				"boot",
+				"judithjanssen.github.io/js/bootstrap.js"
+			],
+			[
+				"header",
+				"judithjanssen.github.io/_includes/header.html"
+			],
+			[
+				"head",
+				"judithjanssen.github.io/_includes/head.html"
+			],
+			[
+				"defaul",
+				"judithjanssen.github.io/_layouts/default.html"
+			],
+			[
+				"heade",
+				"judithjanssen.github.io/_includes/header.html"
+			],
+			[
+				"vio",
+				"judithjanssen.github.io/_posts/en/2015-06-23-violence.md"
+			],
+			[
+				"defau",
+				"judithjanssen.github.io/_layouts/default.html"
+			],
+			[
+				"color",
+				"judithjanssen.github.io/_sass/_colors.scss"
+			],
+			[
+				"mailch",
+				"_includes/mailchimp-form.html"
+			],
+			[
+				"modal",
+				"_sass/_modal.scss"
+			],
+			[
+				"colo",
+				"_sass/_colors.scss"
+			],
+			[
+				"regist",
+				"_includes/focus/register.html"
+			],
+			[
+				"regis",
+				"_includes/focus/register.html"
+			],
+			[
+				"retre",
+				"_data/retreats.yml"
+			],
+			[
+				"intro",
+				"_data/focus/intro.yml"
+			],
+			[
+				"descon",
+				"es/desconecta.html"
+			],
+			[
+				"agency",
+				"_sass/_agency.scss"
+			],
+			[
+				"sched",
+				"_data/focus/schedule.yml"
+			],
+			[
+				"tea",
+				"_data/focus/teacher.yml"
+			],
+			[
+				"teacher",
+				"_includes/focus/teacher.html"
+			],
+			[
+				"team",
+				"_includes/focus/teacher.html"
+			],
+			[
+				"home.sc",
+				"_sass/_home.scss"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"locati",
+				"_data/focus/location.yml"
+			],
+			[
+				"descr",
+				"_data/focus/description.yml"
+			],
+			[
+				"regit",
+				"_data/focus/register.yml"
+			],
+			[
+				"testy",
+				"_data/focus/testimonials.yml"
+			],
+			[
+				"menu",
+				"_data/focus/menu.yml"
+			],
+			[
+				"descri",
+				"_data/focus/description.yml"
+			],
+			[
+				"locat",
+				"_data/focus/location.yml"
+			],
+			[
+				"aliases",
+				"drush/aliases/aliases.drushrc.php"
+			],
+			[
+				"vagran",
+				"Vagrantfile"
+			],
+			[
+				"iy_sas",
+				"docroot/sites/all/themes/iy_sasson/styles/iy_sasson.scss"
+			],
+			[
+				"proje",
+				"ansible/vars/project-settings.yml"
+			],
+			[
+				"geofie",
+				"docroot/sites/all/modules/contrib/geofield/geofield.module"
+			],
+			[
+				"authenticatesandregistersusers",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php"
+			],
+			[
+				"authco",
+				"app/Http/Controllers/Auth/AuthController.php"
+			],
+			[
+				"confi",
+				"_config.yml"
+			],
+			[
+				"footer",
+				"_sass/_sticky-footer.scss"
+			],
+			[
+				"me",
+				"me.html"
+			],
+			[
+				"loca",
+				"_includes/focus/location.html"
+			],
+			[
+				"agen",
+				"_sass/_agency.scss"
+			],
+			[
+				"lan",
+				"_includes/focus/lang-switch.html"
+			],
+			[
+				"desc",
+				"_includes/focus/description.html"
+			],
+			[
+				"regi",
+				"_includes/focus/register.html"
+			],
+			[
+				"locadata",
+				"_includes/location_data.html"
+			],
+			[
+				"location",
+				"_includes/location.html"
+			],
+			[
+				"contact",
+				"_includes/contact.html"
+			],
+			[
+				"instro",
+				"_includes/intro.html"
+			],
+			[
+				"conta",
+				"_includes/contact.html"
+			],
+			[
+				"samp",
+				"js/sample.html"
+			],
+			[
+				"js.h",
+				"_includes/js.html"
+			],
+			[
+				"contac",
+				"_includes/contact.html"
+			],
+			[
+				"locai",
+				"_includes/location.html"
+			],
+			[
+				"he",
+				"_includes/header.html"
+			],
+			[
+				"config",
+				"_config.yml"
+			],
+			[
+				"t",
+				"_includes/teacher.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Code/judithjanssen.github.io/judithjanssen.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 525.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

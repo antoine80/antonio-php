@@ -17,19 +17,24 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('store/{name}/{type}/{value}', function($name, $type, $value) {   
-    
-   if($device = Device::where('name', $name)->first() ) {
-   	  $device->touch();
-   	  $name = $device->name . ' actualizado el ' . $device->updated_at;
-   }
+Route::get('store/{name}', function($name) {
 
-   else {
-     $device = New App\Device;
-     $device->name = $name;
-     $device->save();
-   }
+	$input = Request::only('temperatura', 'luz', 'humedad1', 'humedad2', 'humedad3', 'humedad4');
 
-    // return view('store', compact('name', 'type', 'value'));
-    return $device;
+   	if(!$device = Device::find($name) ) {
+   		$device = App\Device::create(['name' => $name]);
+     	$device->save();
+     	$device->name = $name;
+   		$device = Device::find($name);
+   	}
+
+   	foreach($input as $type => $value){
+   		if($value != null) {
+   			$sensor = new App\Sensor(['type' => $type, 'value' => $value]);
+			$device->sensors()->save($sensor);
+   		}
+   	}
+
+
+    return Device::with('sensors')->find($name);
 });

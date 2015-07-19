@@ -14,12 +14,12 @@ use App\Device;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard');
 });
 
 Route::get('store/{name}', function($name) {
 
-	$input = Request::only('temperatura', 'luz', 'humedad1', 'humedad2', 'humedad3', 'humedad4');
+	$input =Request::only('temperatura', 'luz', 'humedad1', 'humedad2', 'humedad3', 'humedad4');
 
    	if(!$device = Device::find($name) ) {
    		$device = App\Device::create(['name' => $name]);
@@ -34,7 +34,6 @@ Route::get('store/{name}', function($name) {
 			$device->sensors()->save($sensor);
    		}
    	}
-
 
     return Device::with('sensors')->find($name);
 });

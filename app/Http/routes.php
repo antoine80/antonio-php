@@ -14,7 +14,45 @@ use App\Device;
 */
 
 Route::get('/', function () {
-    return view('dashboard');
+
+	// Grace period for arduinos to send info
+	$grace = 36000;
+	// Data for the view
+	$data = [
+		'live' => [],
+		'missing' => []
+	];
+	// Puntos para las gráficas
+	$points = [];
+
+	$devices = Device::all();
+
+
+	foreach ($devices as $key => $device) {
+		// device->updated_at is Carbon object, need to change to timestamp
+		if ($device->updated_at->timestamp <= (time() - $grace)  ){
+			$data['missing'][] = $device;
+		}
+		else {
+			$data['live'][] = $device;
+		}
+	}
+
+	// dd($data);
+
+	// De los live sacar los puntos para las gráficas
+	foreach ($data['live'] as $device) {
+		foreach ($device->sensors as $sensor){
+			// $points['arduino1']['2015-07-19 14:30']['humedad1'] = 35
+			//$points[$device->name]['by_date'][$sensor->created_at->toDateTimeString()][$sensor->type] = $sensor->value;
+			// $points['arduino1']['humedad1'][] = ['2015-07-19 14:30', 35]
+			$points[$device->name][$sensor->type][] = [$sensor->created_at->timestamp, $sensor->value];
+		}
+	}
+	// pasamos los datos a la vista para allí pasarlo al JS
+	$data['toJavascript']['points'] = $points;
+
+    return view('dashboard')->with($data);
 });
 
 Route::get('store/{name}', function($name) {
@@ -36,4 +74,22 @@ Route::get('store/{name}', function($name) {
    	}
 
     return Device::with('sensors')->find($name);
+});
+
+
+Route::get('devices/{name}', function($name) {
+
+   	if(!$device = Device::find($name) ) {
+   		return redirect('/');
+   	}
+
+
+	foreach ($device->sensors as $sensor){
+		$points[$device->name][$sensor->type][] = [$sensor->created_at->timestamp, $sensor->value];
+	}
+
+	$data['device'] = $device;
+	$data['toJavascript']['points'] = $points;
+
+   	return view('device')->with($data);
 });

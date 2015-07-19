@@ -2,9 +2,7 @@
 
 @section('content')
 
-        <div id="page-wrapper">
-
-            <div class="container-fluid">
+                    <div class="container-fluid">
 
                 <!-- Page Heading -->
                 <div class="row">
@@ -21,15 +19,11 @@
                 </div>
                 <!-- /.row -->
 
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="alert alert-info alert-dismissable">
-                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <i class="fa fa-info-circle"></i>  <strong>Like SB Admin?</strong> Try out <a href="http://startbootstrap.com/template-overviews/sb-admin-2" class="alert-link">SB Admin 2</a> for additional features!
-                        </div>
-                    </div>
-                </div>
-                <!-- /.row -->
+                @if ( $missing )
+
+                	@include('flash')
+
+                @endif
 
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
@@ -40,8 +34,8 @@
                                         <i class="fa fa-comments fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge">26</div>
-                                        <div>New Comments!</div>
+                                        <div class="huge">{{ count($live) }}</div>
+                                        <div>Live devices!</div>
                                     </div>
                                 </div>
                             </div>
@@ -106,8 +100,8 @@
                                         <i class="fa fa-support fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge">13</div>
-                                        <div>Support Tickets!</div>
+                                        <div class="huge">{{ count($missing) }}</div>
+                                        <div>Missing devices!</div>
                                     </div>
                                 </div>
                             </div>
@@ -122,19 +116,20 @@
                     </div>
                 </div>
                 <!-- /.row -->
-
+				@foreach ($live as $device)
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title"><i class="fa fa-bar-chart-o fa-fw"></i> Area Chart</h3>
+                                <h3 class="panel-title"><i class="fa fa-bar-chart-o fa-fw"></i>{{ $device->name }}</h3>
                             </div>
                             <div class="panel-body">
-                                <div id="morris-area-chart"></div>
+                                <div id="{{ $device->name }}-chart"></div>
                             </div>
                         </div>
                     </div>
                 </div>
+                @endforeach
                 <!-- /.row -->
 
                 <div class="row">
@@ -276,8 +271,5 @@
 
             </div>
             <!-- /.container-fluid -->
-
-        </div>
-        <!-- /#page-wrapper -->
 
 @endsection

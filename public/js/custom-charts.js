@@ -1,10 +1,8 @@
 $(function () {
-	console.log(javascript);
+	//console.log(javascript);
 	var devices = javascript.points;
 	var deviceNames = Object.keys(devices);
-	console.log(devices, 'devices');
-	console.log(deviceNames, 'deviceNames');
-
+	
 	// Entramos en cada uno de los devices dentro de device.
 	for (var i = 0; i < deviceNames.length; i++) {
 		var chartData = {};
@@ -12,25 +10,27 @@ $(function () {
 		var sensors = devices[deviceName];
 		var series = [];
 		var sensorNames = Object.keys(sensors);
-		console.log(sensorNames);
 		// Entramos en cada sensor del dispositivo
 		for(x = 0; x < sensorNames.length; x++){
 			var sensorName = sensorNames[x];
-			console.log(sensorName);
 			// Generamos una serie para cada sensor 
+			var serie = sensors[sensorName];
+			var parsed = serie.map(function(element){
+				return [element[0], parseFloat(element[1])];
+			});
 			series.push({
 				name: sensorName,
-				data: sensors[sensorName]
+				data: parsed
 			});
 		}
 		
-		console.log(series);
 		// Asignamos series para el highchart
 		chartData.series = series;
 
 		// Le damos un title al highchart
 		chartData.title = 'Device: ' + deviceNames[i];
-
+		console.log(chartData);
+		
 		// Ejecutamos la función sobre el selector jquery
 		printChart($('#' + deviceName + '-chart'), chartData);
 	};
